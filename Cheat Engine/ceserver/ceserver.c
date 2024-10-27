@@ -1956,7 +1956,7 @@ int main(int argc, char *argv[])
   socklen_t clisize;
   struct sockaddr_in addr, addr_client;
 
-  PORT=52736;
+  PORT=52026;
 
 //        process_vm_readv(p->pid, NULL, 0,NULL,0,0);
   //(pid_t __pid, const struct iovec* __local_iov, unsigned long __local_iov_count, const struct iovec* __remote_iov, unsigned long __remote_iov_count, unsigned long __flags)
